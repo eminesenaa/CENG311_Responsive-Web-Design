@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  background-color: #eef2f5;
+  padding: 40px;
+  color: #333;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 500px;
+  margin: auto;
+  border: 1px solid #ccddee;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(180, 200, 230, 0.4);
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="url"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+form button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #2e8ece;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+form button[type="submit"]:hover {
+  background-color: #247ab2;
+}
+
+.ui-autocomplete {
+  max-height: 150px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 6px;
+  font-size: 15px;
+}
